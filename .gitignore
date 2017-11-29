@@ -3,3 +3,5 @@
 ################################################################################
 
 /CassandraTest/.vs/CassandraTest/v15
+/CassandraTest/CassandraTest/bin/Debug/netcoreapp2.0
+/CassandraTest/CassandraTest/obj
