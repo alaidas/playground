@@ -8,7 +8,7 @@ namespace CassandraTest
     {
         static void Main(string[] args)
         {
-            Cluster cluster = Cluster.Builder().AddContactPoint("10.132.71.22").Build();
+            Cluster cluster = Cluster.Builder().AddContactPoint("Y41507").Build();
             ISession session = cluster.Connect("demo");
 
             string guid = Guid.NewGuid().ToString();
